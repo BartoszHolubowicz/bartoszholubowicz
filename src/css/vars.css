@@ -1,0 +1,28 @@
+:root {
+  /* Media breakpoints */
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  /* z-index'es */
+  --NavBar-z-index: 20;
+  --NavBarItemsExpanded-z-index: 19;
+  --Main-z-index: 0;
+  --Footer-z-index: 10;
+  /* Font sizes */
+  --NavBarLogo-font-size: 20pt;
+  --NavBarItem-label-font-size: 12pt;
+  --NavBarItem-websites-font-size: 18pt;
+  --NavBarItemExpanded-label-font-size: 12pt;
+  /* Components variables */
+  --background-color: #000000;
+  --first-color: #ffffff;
+  --second-color: #ff4d48;
+    /* NavBar */
+    --NavBar-background-color: #111111;
+    --NavBar-height: 8vh;
+    /* Main */
+    --Main-height: calc(100vh - var(--NavBar-height) - var(--Footer-height));
+    /* Footer */
+    --Footer-height: 8vh;
+}

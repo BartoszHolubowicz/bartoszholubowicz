@@ -1,0 +1,44 @@
+@import url('./vars.css');
+
+.NavBarItem-link {
+  all: unset;
+  --padding-horizontal: 1rem;
+  padding: 0 var(--padding-horizontal) 0 var(--padding-horizontal);
+  height: 100%;
+  font-size: var(--NavBarItem-label-font-size);
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.8s ease;
+  background: linear-gradient(to bottom, var(--second-color) 50%, var(--NavBar-background-color) 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+  white-space: pre-wrap;
+  text-align: center;
+}
+.NavBarItem-link:hover {
+  background-position: left top;
+}
+.activeLink {
+  border-bottom: 4px var(--second-color);
+}
+.NavBarItem-facebook, .NavBarItem-linkedin, .NavBarItem-github {
+  font-size: var(--NavBarItem-websites-font-size);
+  flex: 2;
+}
+.NavBarItem-facebook {
+  background: linear-gradient(to bottom, #3b5998 50%, var(--NavBar-background-color) 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}
+.NavBarItem-linkedin {
+  background: linear-gradient(to bottom, #0077b5 50%, var(--NavBar-background-color) 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}
+.NavBarItem-github {
+  background: linear-gradient(to bottom, #6e5494 50%, var(--NavBar-background-color) 50%);
+  background-size: 100% 200%;
+  background-position: left bottom;
+}

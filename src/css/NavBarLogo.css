@@ -1,0 +1,20 @@
+@import url('./vars.css');
+
+.NavBarLogo {
+  height: 100%;
+}
+.NavBarLogo > a {
+  all: unset;
+  height: 100%;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  cursor: pointer;
+}
+.NavBarLogo-label {
+  font-size: var(--NavBarLogo-font-size);
+  font-weight: bold;
+}
+.NavBarLogo-letter {
+  color: var(--second-color);
+}

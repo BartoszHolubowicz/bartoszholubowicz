@@ -1,0 +1,20 @@
+@import url('./vars.css');
+
+.NoMatch {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100vw;
+  height: var(--Main-height);
+  background: url('../img/orange.gif');
+  background-position-y: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.e404 {
+  width: 100vw;
+  text-align: center;
+  font-size: 82pt;
+  font-weight: bold;
+  background-color: #00000031;
+}

@@ -1,0 +1,7 @@
+@import url('./vars.css');
+
+.Footer {
+  width: 100vw;
+  z-index: var(--Footer-z-index);
+  height: var(--Footer-height);
+}

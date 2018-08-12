@@ -1,0 +1,6 @@
+@import url('./vars.css');
+
+.Main {
+  z-index: var(--Main-z-index);
+  height: var(--Main-height);
+}

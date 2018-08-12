@@ -1,0 +1,21 @@
+@import url('./vars.css');
+
+.NavBarItems {
+  height: 100%;
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  list-style: none;
+}
+.NavBarItems > .NavBarItem, .NavBarItem > a {
+  height: 100%;
+}
+.fas {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .NavBarItems {
+    display: none;
+  }
+}

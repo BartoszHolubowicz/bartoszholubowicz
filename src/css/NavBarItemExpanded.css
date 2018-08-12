@@ -1,0 +1,18 @@
+@import url('./vars.css');
+
+.NavBarItemExpanded-link {
+  all: unset;
+  font-size: var(--NavBarItemExpanded-label-font-size);
+  width: 100vw;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: var(--NavBar-background-color);
+  border-top: 1px solid black;
+  transition: font-size .5s ease;
+}
+.NavBarItemExpanded-link:hover {
+  font-size: calc(var(--NavBarItemExpanded-label-font-size) + 1pt);
+}

@@ -1,0 +1,27 @@
+@import url('./vars.css');
+
+.NavBarCollapse {
+  display: none;
+  height: 100%;
+}
+.NavBarCollapse > button {
+  border: none;
+  outline: none;
+  height: 100%;
+  background-color: var(--NavBar-background-color);
+  color: var(--first-color);
+  font-size: 18pt;
+  cursor: pointer;
+}
+.NavBarCollapse > button > i {
+  transition-duration: .3s;
+}
+i.expanded {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  .NavBarCollapse {
+    display: inline-flex;
+  }
+}

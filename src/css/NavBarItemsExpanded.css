@@ -1,0 +1,11 @@
+@import url('./vars.css');
+
+.NavBarItemsExpanded {
+  z-index: var(--NavBarItemsExpanded-z-index);
+  display: flex;
+  flex-flow: column wrap;
+  list-style: none;
+}
+.NavBarItemsExpanded > .NavBarItemExpanded, .NavBarItemExpanded > a {
+  height: 4vh;
+}
